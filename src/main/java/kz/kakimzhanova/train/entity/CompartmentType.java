@@ -13,9 +13,9 @@ public enum CompartmentType {
         this.comfort = comfort;
         this.placesNumber = placesNumber;
     }
-
+    @Override
     public String toString() {
-        StringBuffer s = new StringBuffer("");
+        StringBuilder s = new StringBuilder();
         s.append(name);
         s.append("\n");
         s.append("Number of places in compartment: ");

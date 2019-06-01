@@ -6,9 +6,9 @@ public class DinningCar extends AbstractCar {
     public DinningCar(int places) {
         this.places = places;
     }
-
+    @Override
     public String toString() {
-        StringBuffer s = new StringBuffer(super.toString());
+        StringBuilder s = new StringBuilder(super.toString());
         s.append("Dinning Car");
         s.append("\nDinning places: ");
         s.append(places);

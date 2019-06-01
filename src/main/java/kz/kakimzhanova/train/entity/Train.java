@@ -10,7 +10,7 @@ public class Train {
 
     public Train() {
         trainId = IdGenerator.generateTrainId();
-        cars = new ArrayList <AbstractCar>();
+        cars = new ArrayList <>();
     }
 
     public Train(List <AbstractCar> cars) {
@@ -19,14 +19,14 @@ public class Train {
     }
 
     public List <AbstractCar> getCars() {
-        return new ArrayList <AbstractCar>(cars);
+        return new ArrayList <>(cars);
     }
     public void addCar(AbstractCar... car) {
         cars.addAll(Arrays.asList(car));
     }
-
+    @Override
     public String toString() {
-        StringBuffer s = new StringBuffer("");
+        StringBuilder s = new StringBuilder();
         s.append("Train id: ");
         s.append(trainId);
         s.append("\n");

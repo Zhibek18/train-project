@@ -8,9 +8,9 @@ public class SleepingCar extends AbstractPassengerCar {
         super(passengersQuantity, handLuggageQuantity);
         this.type = type;
     }
-
+    @Override
     public String toString() {
-        StringBuffer s = new StringBuffer(super.toString());
+        StringBuilder s = new StringBuilder(super.toString());
         s.append("Compartment type: ");
         s.append(type);
         s.append("\n");
@@ -18,6 +18,7 @@ public class SleepingCar extends AbstractPassengerCar {
     }
 
     public int getComfortLevel(){
+
         return type.getComfort();
     }
 }

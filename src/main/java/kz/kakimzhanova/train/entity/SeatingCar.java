@@ -8,9 +8,9 @@ public class SeatingCar extends AbstractPassengerCar{
         super(passengersQuantity, handLuggageQuantity);
         this.seatsNumber = seatsNumber;
     }
-
+    @Override
     public String toString() {
-        StringBuffer s = new StringBuffer(super.toString());
+        StringBuilder s = new StringBuilder(super.toString());
         s.append("Seats Number: ");
         s.append(seatsNumber);
         s.append("\n");

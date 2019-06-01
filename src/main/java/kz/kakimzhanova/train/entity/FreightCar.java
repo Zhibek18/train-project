@@ -8,9 +8,9 @@ public class FreightCar extends AbstractCar{
         this.luggageQuantity = luggageQuantity;
         this.luggageWeight = luggageWeight;
     }
-
+    @Override
     public String toString() {
-        StringBuffer s = new StringBuffer(super.toString());
+        StringBuilder s = new StringBuilder(super.toString());
         s.append("Freight car:");
         s.append("\nLuggage quantity: ");
         s.append(luggageQuantity);
@@ -28,7 +28,7 @@ public class FreightCar extends AbstractCar{
         return luggageQuantity;
     }
 
-    public int getComfortLevel(){
+    public int getComfortLevel() {
         return 0;
     }
 }
