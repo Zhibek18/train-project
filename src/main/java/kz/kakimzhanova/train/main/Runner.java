@@ -23,10 +23,5 @@ public class Runner {
         report.printReport(train);
         report.printByPassengersRange(train, 90, 100);
         report.printReport(sortedTrain);
-
-        Train emptyTrain = new Train();
-        report.printReport(emptyTrain);
-
-
     }
 }

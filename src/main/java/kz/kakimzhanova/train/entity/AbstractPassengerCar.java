@@ -11,6 +11,7 @@ public abstract class AbstractPassengerCar extends AbstractCar{
     @Override
     public String toString() {
         StringBuilder s = new StringBuilder(super.toString());
+
         s.append("Passengers quantity: ");
         s.append(passengersQuantity);
         s.append("\nHand luggage quantity: ");
@@ -39,7 +40,6 @@ public abstract class AbstractPassengerCar extends AbstractCar{
 
         if (passengersQuantity != that.passengersQuantity) return false;
         return handLuggageQuantity == that.handLuggageQuantity;
-
     }
 
     @Override
