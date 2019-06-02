@@ -1,9 +1,9 @@
-package kz.kakimzhanova.train.action;
+package kz.kakimzhanova.train.action.finder;
 
 import kz.kakimzhanova.train.entity.AbstractCar;
 import kz.kakimzhanova.train.entity.Train;
 
-public class CarFinder {
+public class CarFinderImpl implements CarFinder {
     public Train findByPassengersRange(Train train, int min, int max) {
         Train newTrain = new Train();
         int count;

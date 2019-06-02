@@ -1,9 +1,9 @@
-package kz.kakimzhanova.train.action;
+package kz.kakimzhanova.train.action.calculator;
 
 import kz.kakimzhanova.train.entity.Train;
 import kz.kakimzhanova.train.entity.*;
 
-public class TrainAction {
+public class TrainCalculatorImpl implements TrainCalculator {
     public int countPassengers(Train train) {
         int count = 0;
         for (AbstractCar car : train.getCars()) {

@@ -1,4 +1,4 @@
-package kz.kakimzhanova.train.action;
+package kz.kakimzhanova.train.action.sorter;
 
 import kz.kakimzhanova.train.entity.AbstractCar;
 import kz.kakimzhanova.train.entity.Train;
@@ -7,7 +7,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-public class CarSorter {
+public class CarSorterImpl implements CarSorter {
     public Train sortCarsByComfort(Train train) {
         List<AbstractCar> cars = train.getCars();
         Collections.sort(cars, new Comparator<AbstractCar>() {

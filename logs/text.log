@@ -1,4 +1,4 @@
-2019-06-01 18:08:14 [main] INFO  kz.kakimzhanova.train.report.TrainReport- Train id: 1
+2019-06-01 18:27:23 [main] INFO  kz.kakimzhanova.train.report.TrainReport- Train id: 1
 Car id: 1
 Dinning Car
 Dinning places: 10
@@ -22,7 +22,7 @@ Luggage quantity: 160
 Luggage weight: 1000.0kg
 ---------------------------
 
-2019-06-01 18:08:14 [main] INFO  kz.kakimzhanova.train.report.TrainReport- Train id: 2
+2019-06-01 18:27:23 [main] INFO  kz.kakimzhanova.train.report.TrainReport- Train id: 2
 Car id: 4
 Freight car:
 Luggage quantity: 160

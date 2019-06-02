@@ -1,5 +1,5 @@
 package kz.kakimzhanova.train.main;
-import kz.kakimzhanova.train.action.CarSorter;
+import kz.kakimzhanova.train.action.sorter.CarSorterImpl;
 import kz.kakimzhanova.train.entity.*;
 import kz.kakimzhanova.train.report.TrainReport;
 
@@ -11,7 +11,7 @@ public class Runner {
         AbstractCar openCar = new SleepingCar(96, 90, CompartmentType.OPEN);
         AbstractCar freightCar = new FreightCar(160, 1000);
         train.addCar(dinningCar,seatingCar, openCar, freightCar);
-        CarSorter carSorter = new CarSorter();
+        CarSorterImpl carSorter = new CarSorterImpl();
         Train sortedTrain = carSorter.sortCarsByComfort(train);
 
         TrainReport report = new TrainReport();
