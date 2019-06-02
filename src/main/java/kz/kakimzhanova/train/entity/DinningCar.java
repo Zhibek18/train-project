@@ -8,9 +8,9 @@ public class DinningCar extends AbstractCar {
     }
     @Override
     public String toString() {
-        StringBuilder s = new StringBuilder(super.toString());
-        s.append("Dinning Car");
-        s.append("\nDinning places: ");
+        StringBuilder s = new StringBuilder("Dinning Car:\n");
+        s.append(super.toString());
+        s.append("Dinning places: ");
         s.append(places);
         s.append("\n");
         return s.toString();

@@ -10,9 +10,9 @@ public class FreightCar extends AbstractCar{
     }
     @Override
     public String toString() {
-        StringBuilder s = new StringBuilder(super.toString());
-        s.append("Freight car:");
-        s.append("\nLuggage quantity: ");
+        StringBuilder s = new StringBuilder("Freight car:\n");
+        s.append(super.toString());
+        s.append("Luggage quantity: ");
         s.append(luggageQuantity);
         s.append("\nLuggage weight: ");
         s.append(luggageWeight);
@@ -30,5 +30,28 @@ public class FreightCar extends AbstractCar{
 
     public int getComfortLevel() {
         return 0;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        if (!super.equals(o)) return false;
+
+        FreightCar that = (FreightCar) o;
+
+        if (luggageQuantity != that.luggageQuantity) return false;
+        return Double.compare(that.luggageWeight, luggageWeight) == 0;
+
+    }
+
+    @Override
+    public int hashCode() {
+        int result = super.hashCode();
+        long temp;
+        result = 31 * result + luggageQuantity;
+        temp = Double.doubleToLongBits(luggageWeight);
+        result = 31 * result + (int) (temp ^ (temp >>> 32));
+        return result;
     }
 }

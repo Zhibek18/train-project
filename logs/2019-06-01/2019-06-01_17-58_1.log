@@ -1,0 +1,48 @@
+2019-06-01 17:58:36 [main] INFO  kz.kakimzhanova.train.report.TrainReport- Train id: 1
+Car id: 1
+Dinning Car
+Dinning places: 10
+---------------------------
+Car id: 2
+Passengers car:
+Passengers quantity: 90
+Hand luggage quantity: 100
+Seats Number: 100
+---------------------------
+Car id: 3
+Passengers car:
+Passengers quantity: 96
+Hand luggage quantity: 90
+Compartment type: open
+Number of places in compartment: 6
+---------------------------
+Car id: 4
+Freight car:
+Luggage quantity: 160
+Luggage weight: 1000.0kg
+---------------------------
+
+2019-06-01 17:58:36 [main] INFO  kz.kakimzhanova.train.report.TrainReport- Train id: 2
+Car id: 4
+Freight car:
+Luggage quantity: 160
+Luggage weight: 1000.0kg
+---------------------------
+Car id: 2
+Passengers car:
+Passengers quantity: 90
+Hand luggage quantity: 100
+Seats Number: 100
+---------------------------
+Car id: 3
+Passengers car:
+Passengers quantity: 96
+Hand luggage quantity: 90
+Compartment type: open
+Number of places in compartment: 6
+---------------------------
+Car id: 1
+Dinning Car
+Dinning places: 10
+---------------------------
+

@@ -1,128 +1,112 @@
-2019-06-02 18:58:58 [main] INFO  kz.kakimzhanova.train.report.TrainReport- 
-************************************
-Train id: 1
+2019-06-02 18:09:39 [main] INFO  kz.kakimzhanova.train.report.TrainReport- Train id: 1
 Dinning Car:
 Car id: 1
 Dinning places: 10
-------------------------------------
+---------------------------
 Seating Car:
 Car id: 2
 Passengers quantity: 90
 Hand luggage quantity: 100
 Seats Number: 100
-------------------------------------
+---------------------------
 Sleeping Car:
 Car id: 3
 Passengers quantity: 96
 Hand luggage quantity: 90
 Compartment type: open
 Number of places in compartment: 6
-------------------------------------
+---------------------------
 Freight car:
 Car id: 4
 Luggage quantity: 160
 Luggage weight: 1000.0kg
-------------------------------------
+---------------------------
 Sleeping Car:
 Car id: 5
 Passengers quantity: 35
 Hand luggage quantity: 40
 Compartment type: lux
 Number of places in compartment: 2
-------------------------------------
+---------------------------
 Sleeping Car:
 Car id: 6
 Passengers quantity: 50
 Hand luggage quantity: 50
 Compartment type: business
 Number of places in compartment: 2
-------------------------------------
+---------------------------
 Sleeping Car:
 Car id: 7
 Passengers quantity: 120
 Hand luggage quantity: 128
 Compartment type: econom
 Number of places in compartment: 4
-------------------------------------
+---------------------------
 Total passengers count: 391
 Total luggage count: 568
-************************************
-
-2019-06-02 18:58:58 [main] INFO  kz.kakimzhanova.train.report.TrainReport- Printing cars from train with trainId:1 with passengers number in range from 90 to 100
-
-************************************
+2019-06-02 18:09:39 [main] INFO  kz.kakimzhanova.train.report.TrainReport- Printing cars from train with trainId:1 with passengers number in range from 90 to 100
 Train id: 3
 Seating Car:
 Car id: 2
 Passengers quantity: 90
 Hand luggage quantity: 100
 Seats Number: 100
-------------------------------------
+---------------------------
 Sleeping Car:
 Car id: 3
 Passengers quantity: 96
 Hand luggage quantity: 90
 Compartment type: open
 Number of places in compartment: 6
-------------------------------------
+---------------------------
 Total passengers count: 186
 Total luggage count: 190
-************************************
-
-2019-06-02 18:58:58 [main] INFO  kz.kakimzhanova.train.report.TrainReport- 
-************************************
-Train id: 2
+2019-06-02 18:09:39 [main] INFO  kz.kakimzhanova.train.report.TrainReport- Train id: 2
 Freight car:
 Car id: 4
 Luggage quantity: 160
 Luggage weight: 1000.0kg
-------------------------------------
+---------------------------
 Seating Car:
 Car id: 2
 Passengers quantity: 90
 Hand luggage quantity: 100
 Seats Number: 100
-------------------------------------
+---------------------------
 Sleeping Car:
 Car id: 3
 Passengers quantity: 96
 Hand luggage quantity: 90
 Compartment type: open
 Number of places in compartment: 6
-------------------------------------
+---------------------------
 Sleeping Car:
 Car id: 7
 Passengers quantity: 120
 Hand luggage quantity: 128
 Compartment type: econom
 Number of places in compartment: 4
-------------------------------------
+---------------------------
 Sleeping Car:
 Car id: 6
 Passengers quantity: 50
 Hand luggage quantity: 50
 Compartment type: business
 Number of places in compartment: 2
-------------------------------------
+---------------------------
 Sleeping Car:
 Car id: 5
 Passengers quantity: 35
 Hand luggage quantity: 40
 Compartment type: lux
 Number of places in compartment: 2
-------------------------------------
+---------------------------
 Dinning Car:
 Car id: 1
 Dinning places: 10
-------------------------------------
+---------------------------
 Total passengers count: 391
 Total luggage count: 568
-************************************
-
-2019-06-02 18:58:58 [main] INFO  kz.kakimzhanova.train.report.TrainReport- 
-************************************
-Train id: 4
+2019-06-02 18:09:39 [main] INFO  kz.kakimzhanova.train.report.TrainReport- Train id: 4
 This train is empty
-
-************************************
 

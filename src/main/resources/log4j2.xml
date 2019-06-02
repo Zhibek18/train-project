@@ -16,7 +16,7 @@
             <DefaultRolloverStrategy max="10"/>
         </RollingFile>
         <Console name="Console" target="SYSTEM_OUT">
-            <PatternLayout pattern="%d{ABSOLUTE} %-5level %logger{1} - %msg%n"/>
+            <PatternLayout pattern="%d{mm:ss} %-5level %logger{1} - %msg%n"/>
         </Console>
     </Appenders>
     <Loggers>

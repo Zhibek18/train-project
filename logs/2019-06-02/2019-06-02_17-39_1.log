@@ -1,0 +1,122 @@
+2019-06-02 17:39:56 [main] INFO  kz.kakimzhanova.train.report.TrainReport- Train id: 1
+Car id: 1
+Dinning Car
+Dinning places: 10
+---------------------------
+Car id: 2
+Passengers car:
+Passengers quantity: 90
+Hand luggage quantity: 100
+Seating Car
+Seats Number: 100
+---------------------------
+Car id: 3
+Passengers car:
+Passengers quantity: 96
+Hand luggage quantity: 90
+Sleeping Car
+Compartment type: open
+Number of places in compartment: 6
+---------------------------
+Car id: 4
+Freight car:
+Luggage quantity: 160
+Luggage weight: 1000.0kg
+---------------------------
+Car id: 5
+Passengers car:
+Passengers quantity: 35
+Hand luggage quantity: 40
+Sleeping Car
+Compartment type: lux
+Number of places in compartment: 2
+---------------------------
+Car id: 6
+Passengers car:
+Passengers quantity: 50
+Hand luggage quantity: 50
+Sleeping Car
+Compartment type: business
+Number of places in compartment: 2
+---------------------------
+Car id: 7
+Passengers car:
+Passengers quantity: 120
+Hand luggage quantity: 128
+Sleeping Car
+Compartment type: econom
+Number of places in compartment: 4
+---------------------------
+
+2019-06-02 17:39:56 [main] INFO  kz.kakimzhanova.train.report.TrainReport- Passengers count: 391
+2019-06-02 17:39:56 [main] INFO  kz.kakimzhanova.train.report.TrainReport- Total luggage count: 568
+2019-06-02 17:39:56 [main] INFO  kz.kakimzhanova.train.report.TrainReport- Printing cars from train with trainId:1 with passengers number in range from 90 to 100
+Train id: 3
+Car id: 2
+Passengers car:
+Passengers quantity: 90
+Hand luggage quantity: 100
+Seating Car
+Seats Number: 100
+---------------------------
+Car id: 3
+Passengers car:
+Passengers quantity: 96
+Hand luggage quantity: 90
+Sleeping Car
+Compartment type: open
+Number of places in compartment: 6
+---------------------------
+
+2019-06-02 17:39:56 [main] INFO  kz.kakimzhanova.train.report.TrainReport- Train id: 2
+Car id: 4
+Freight car:
+Luggage quantity: 160
+Luggage weight: 1000.0kg
+---------------------------
+Car id: 2
+Passengers car:
+Passengers quantity: 90
+Hand luggage quantity: 100
+Seating Car
+Seats Number: 100
+---------------------------
+Car id: 3
+Passengers car:
+Passengers quantity: 96
+Hand luggage quantity: 90
+Sleeping Car
+Compartment type: open
+Number of places in compartment: 6
+---------------------------
+Car id: 7
+Passengers car:
+Passengers quantity: 120
+Hand luggage quantity: 128
+Sleeping Car
+Compartment type: econom
+Number of places in compartment: 4
+---------------------------
+Car id: 6
+Passengers car:
+Passengers quantity: 50
+Hand luggage quantity: 50
+Sleeping Car
+Compartment type: business
+Number of places in compartment: 2
+---------------------------
+Car id: 5
+Passengers car:
+Passengers quantity: 35
+Hand luggage quantity: 40
+Sleeping Car
+Compartment type: lux
+Number of places in compartment: 2
+---------------------------
+Car id: 1
+Dinning Car
+Dinning places: 10
+---------------------------
+
+2019-06-02 17:39:56 [main] INFO  kz.kakimzhanova.train.report.TrainReport- Passengers count: 391
+2019-06-02 17:39:56 [main] INFO  kz.kakimzhanova.train.report.TrainReport- Total luggage count: 568
